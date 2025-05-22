@@ -1,0 +1,10 @@
+2024-09-26T16:49:55.021382300255-16:49:55 **** Incremental Build of configuration Debug for project CLC_3adc_system ****
+000-make all 
+000-Generating bif file for the system project
+000-generate_system_bif.bat 56957 D:/Programs/Proyecto_3LFCC_Zybo/Vitis_3adc/3LFCC_3adc_platform/export/3LFCC_3adc_platform/3LFCC_3adc_platform.xpfm standalone_domain D:/Programs/Proyecto_3LFCC_Zybo/Vitis_3adc/CLC_3adc_system/Debug/system.bif
+000-sdcard_gen --xpfm D:/Programs/Proyecto_3LFCC_Zybo/Vitis_3adc/3LFCC_3adc_platform/export/3LFCC_3adc_platform/3LFCC_3adc_platform.xpfm --sys_config 3LFCC_3adc_platform --bif D:/Programs/Proyecto_3LFCC_Zybo/Vitis_3adc/CLC_3adc_system/Debug/system.bif --bitstream D:/Programs/Proyecto_3LFCC_Zybo/Vitis_3adc/CLC_3adc/_ide/bitstream/Design_Closed_Loop_3adc.bit --elf D:/Programs/Proyecto_3LFCC_Zybo/Vitis_3adc/CLC_3adc/Debug/CLC_3adc.elf,ps7_cortexa9_0
+000-creating BOOT.BIN using D:/Programs/Proyecto_3LFCC_Zybo/Vitis_3adc/CLC_3adc/_ide/bitstream/Design_Closed_Loop_3adc.bit
+000-Running D:/Xilinx/Vitis/2023.2/bin/bootgen  -image D:/Programs/Proyecto_3LFCC_Zybo/Vitis_3adc/CLC_3adc_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+00255-
+16:50:04 Build Finished (took 9s.39ms)
+

@@ -1,0 +1,189 @@
+TRACE::2024-08-12.14:28:19::SCWBifWriter::Found the complete platform D:/Projects_Embedded/Closed_Loop/Vitis_3adc/3LFCC_3adc_platform/export/3LFCC_3adc_platform/3LFCC_3adc_platform.xpfm
+TRACE::2024-08-12.14:28:19::SCWBifWriter::hardware databse : Design_Closed_Loop_wrapper_0
+TRACE::2024-08-12.14:28:19::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-12.14:28:19::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-12.14:28:19::SCWBifWriter::proc type : 
+TRACE::2024-08-12.14:28:19::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-12.14:28:19::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-12.14:28:19::SCWBifWriter::Writing BIF to file : D:/Projects_Embedded/Closed_Loop/Vitis_3adc/OLC_3adc_system/Debug/system.bif
+TRACE::2024-08-12.14:28:19::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-12.14:52:46::SCWBifWriter::Found the complete platform D:/Projects_Embedded/Closed_Loop/Vitis_3adc/3LFCC_3adc_platform/export/3LFCC_3adc_platform/3LFCC_3adc_platform.xpfm
+TRACE::2024-08-12.14:52:46::SCWBifWriter::hardware databse : Design_Closed_Loop_wrapper_0
+TRACE::2024-08-12.14:52:46::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-12.14:52:46::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-12.14:52:46::SCWBifWriter::proc type : 
+TRACE::2024-08-12.14:52:46::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-12.14:52:46::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-12.14:52:46::SCWBifWriter::Writing BIF to file : D:/Projects_Embedded/Closed_Loop/Vitis_3adc/OLC_3adc_system/Debug/system.bif
+TRACE::2024-08-12.14:52:46::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-12.14:54:07::SCWBifWriter::Found the complete platform D:/Projects_Embedded/Closed_Loop/Vitis_3adc/3LFCC_3adc_platform/export/3LFCC_3adc_platform/3LFCC_3adc_platform.xpfm
+TRACE::2024-08-12.14:54:08::SCWBifWriter::hardware databse : Design_Closed_Loop_wrapper_2
+TRACE::2024-08-12.14:54:08::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-12.14:54:08::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-12.14:54:08::SCWBifWriter::proc type : 
+TRACE::2024-08-12.14:54:08::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-12.14:54:08::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-12.14:54:08::SCWBifWriter::Writing BIF to file : D:/Projects_Embedded/Closed_Loop/Vitis_3adc/OLC_3adc_system/Debug/system.bif
+TRACE::2024-08-12.14:54:08::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-12.14:55:37::SCWBifWriter::Found the complete platform D:/Projects_Embedded/Closed_Loop/Vitis_3adc/3LFCC_3adc_platform/export/3LFCC_3adc_platform/3LFCC_3adc_platform.xpfm
+TRACE::2024-08-12.14:55:38::SCWBifWriter::hardware databse : Design_Closed_Loop_wrapper_3
+TRACE::2024-08-12.14:55:38::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-12.14:55:38::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-12.14:55:38::SCWBifWriter::proc type : 
+TRACE::2024-08-12.14:55:38::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-12.14:55:38::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-12.14:55:38::SCWBifWriter::Writing BIF to file : D:/Projects_Embedded/Closed_Loop/Vitis_3adc/OLC_3adc_system/Debug/system.bif
+TRACE::2024-08-12.14:55:38::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-19.12:32:56::SCWBifWriter::Found the complete platform D:/Programs/Proyecto_3LFCC_Zybo/Vitis_3adc/3LFCC_3adc_platform/export/3LFCC_3adc_platform/3LFCC_3adc_platform.xpfm
+TRACE::2024-08-19.12:32:56::SCWBifWriter::hardware databse : Design_Closed_Loop_wrapper_1
+TRACE::2024-08-19.12:32:56::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-19.12:32:56::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-19.12:32:56::SCWBifWriter::proc type : 
+TRACE::2024-08-19.12:32:56::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-19.12:32:56::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-19.12:32:56::SCWBifWriter::Writing BIF to file : D:/Programs/Proyecto_3LFCC_Zybo/Vitis_3adc/OLC_3adc_system/Debug/system.bif
+TRACE::2024-08-19.12:32:56::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-19.12:39:56::SCWBifWriter::Found the complete platform D:/Programs/Proyecto_3LFCC_Zybo/Vitis_3adc/3LFCC_3adc_platform/export/3LFCC_3adc_platform/3LFCC_3adc_platform.xpfm
+TRACE::2024-08-19.12:39:56::SCWBifWriter::hardware databse : Design_Closed_Loop_wrapper_3
+TRACE::2024-08-19.12:39:56::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-19.12:39:56::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-19.12:39:56::SCWBifWriter::proc type : 
+TRACE::2024-08-19.12:39:56::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-19.12:39:56::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-19.12:39:56::SCWBifWriter::Writing BIF to file : D:/Programs/Proyecto_3LFCC_Zybo/Vitis_3adc/OLC_3adc_system/Debug/system.bif
+TRACE::2024-08-19.12:39:56::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-30.15:58:12::SCWBifWriter::Found the complete platform D:/Programs/Proyecto_3LFCC_Zybo/Vitis_3adc/3LFCC_3adc_platform/export/3LFCC_3adc_platform/3LFCC_3adc_platform.xpfm
+TRACE::2024-08-30.15:58:12::SCWBifWriter::hardware databse : Design_Closed_Loop_wrapper_8
+TRACE::2024-08-30.15:58:12::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-30.15:58:12::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-30.15:58:12::SCWBifWriter::proc type : 
+TRACE::2024-08-30.15:58:12::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-30.15:58:12::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-30.15:58:12::SCWBifWriter::Writing BIF to file : D:/Programs/Proyecto_3LFCC_Zybo/Vitis_3adc/OLC_3adc_system/Debug/system.bif
+TRACE::2024-08-30.15:58:12::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-08-30.15:59:34::SCWBifWriter::Found the complete platform D:/Programs/Proyecto_3LFCC_Zybo/Vitis_3adc/3LFCC_3adc_platform/export/3LFCC_3adc_platform/3LFCC_3adc_platform.xpfm
+TRACE::2024-08-30.15:59:34::SCWBifWriter::hardware databse : Design_Closed_Loop_wrapper_10
+TRACE::2024-08-30.15:59:34::SCWBifWriter::bitstream found in the design
+TRACE::2024-08-30.15:59:34::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-08-30.15:59:34::SCWBifWriter::proc type : 
+TRACE::2024-08-30.15:59:34::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-08-30.15:59:34::SCWBifWriter::Device type is : zynq
+TRACE::2024-08-30.15:59:34::SCWBifWriter::Writing BIF to file : D:/Programs/Proyecto_3LFCC_Zybo/Vitis_3adc/OLC_3adc_system/Debug/system.bif
+TRACE::2024-08-30.15:59:34::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-09-04.12:25:45::SCWBifWriter::Found the complete platform D:/Programs/Proyecto_3LFCC_Zybo/Vitis_3adc/3LFCC_3adc_platform/export/3LFCC_3adc_platform/3LFCC_3adc_platform.xpfm
+TRACE::2024-09-04.12:25:45::SCWBifWriter::hardware databse : Design_Closed_Loop_wrapper
+TRACE::2024-09-04.12:25:45::SCWBifWriter::bitstream found in the design
+TRACE::2024-09-04.12:25:45::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-09-04.12:25:45::SCWBifWriter::proc type : 
+TRACE::2024-09-04.12:25:45::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-09-04.12:25:45::SCWBifWriter::Device type is : zynq
+TRACE::2024-09-04.12:25:45::SCWBifWriter::Writing BIF to file : D:/Programs/Proyecto_3LFCC_Zybo/Vitis_3adc/OLC_3adc_system/Debug/system.bif
+TRACE::2024-09-04.12:25:45::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-09-04.12:32:41::SCWBifWriter::Found the complete platform D:/Programs/Proyecto_3LFCC_Zybo/Vitis_3adc/3LFCC_3adc_platform/export/3LFCC_3adc_platform/3LFCC_3adc_platform.xpfm
+TRACE::2024-09-04.12:32:41::SCWBifWriter::hardware databse : Design_Closed_Loop_wrapper
+TRACE::2024-09-04.12:32:41::SCWBifWriter::bitstream found in the design
+TRACE::2024-09-04.12:32:41::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-09-04.12:32:41::SCWBifWriter::proc type : 
+TRACE::2024-09-04.12:32:41::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-09-04.12:32:41::SCWBifWriter::Device type is : zynq
+TRACE::2024-09-04.12:32:41::SCWBifWriter::Writing BIF to file : D:/Programs/Proyecto_3LFCC_Zybo/Vitis_3adc/OLC_3adc_system/Debug/system.bif
+TRACE::2024-09-04.12:32:41::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-09-04.16:45:45::SCWBifWriter::Found the complete platform D:/Programs/Proyecto_3LFCC_Zybo/Vitis_3adc/3LFCC_3adc_platform/export/3LFCC_3adc_platform/3LFCC_3adc_platform.xpfm
+TRACE::2024-09-04.16:45:46::SCWBifWriter::hardware databse : Design_Closed_Loop_wrapper_7
+TRACE::2024-09-04.16:45:46::SCWBifWriter::bitstream found in the design
+TRACE::2024-09-04.16:45:46::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-09-04.16:45:46::SCWBifWriter::proc type : 
+TRACE::2024-09-04.16:45:46::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-09-04.16:45:46::SCWBifWriter::Device type is : zynq
+TRACE::2024-09-04.16:45:46::SCWBifWriter::Writing BIF to file : D:/Programs/Proyecto_3LFCC_Zybo/Vitis_3adc/OLC_3adc_system/Debug/system.bif
+TRACE::2024-09-04.16:45:46::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-09-05.15:42:05::SCWBifWriter::Found the complete platform D:/Programs/Proyecto_3LFCC_Zybo/Vitis_3adc/3LFCC_3adc_platform/export/3LFCC_3adc_platform/3LFCC_3adc_platform.xpfm
+TRACE::2024-09-05.15:42:06::SCWBifWriter::hardware databse : Design_Closed_Loop_wrapper_1
+TRACE::2024-09-05.15:42:06::SCWBifWriter::bitstream found in the design
+TRACE::2024-09-05.15:42:06::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-09-05.15:42:06::SCWBifWriter::proc type : 
+TRACE::2024-09-05.15:42:06::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-09-05.15:42:06::SCWBifWriter::Device type is : zynq
+TRACE::2024-09-05.15:42:06::SCWBifWriter::Writing BIF to file : D:/Programs/Proyecto_3LFCC_Zybo/Vitis_3adc/OLC_3adc_system/Debug/system.bif
+TRACE::2024-09-05.15:42:06::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-09-05.15:46:57::SCWBifWriter::Found the complete platform D:/Programs/Proyecto_3LFCC_Zybo/Vitis_3adc/3LFCC_3adc_platform/export/3LFCC_3adc_platform/3LFCC_3adc_platform.xpfm
+TRACE::2024-09-05.15:46:57::SCWBifWriter::hardware databse : Design_Closed_Loop_wrapper_2
+TRACE::2024-09-05.15:46:57::SCWBifWriter::bitstream found in the design
+TRACE::2024-09-05.15:46:57::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-09-05.15:46:57::SCWBifWriter::proc type : 
+TRACE::2024-09-05.15:46:57::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-09-05.15:46:57::SCWBifWriter::Device type is : zynq
+TRACE::2024-09-05.15:46:57::SCWBifWriter::Writing BIF to file : D:/Programs/Proyecto_3LFCC_Zybo/Vitis_3adc/OLC_3adc_system/Debug/system.bif
+TRACE::2024-09-05.15:46:57::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-09-09.15:29:10::SCWBifWriter::Found the complete platform D:/Programs/Proyecto_3LFCC_Zybo/Vitis_3adc/3LFCC_3adc_platform/export/3LFCC_3adc_platform/3LFCC_3adc_platform.xpfm
+TRACE::2024-09-09.15:29:10::SCWBifWriter::hardware databse : Design_Closed_Loop_wrapper
+TRACE::2024-09-09.15:29:10::SCWBifWriter::bitstream found in the design
+TRACE::2024-09-09.15:29:10::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-09-09.15:29:10::SCWBifWriter::proc type : 
+TRACE::2024-09-09.15:29:10::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-09-09.15:29:10::SCWBifWriter::Device type is : zynq
+TRACE::2024-09-09.15:29:10::SCWBifWriter::Writing BIF to file : D:/Programs/Proyecto_3LFCC_Zybo/Vitis_3adc/OLC_3adc_system/Debug/system.bif
+TRACE::2024-09-09.15:29:10::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-09-11.16:14:17::SCWBifWriter::Found the complete platform D:/Programs/Proyecto_3LFCC_Zybo/Vitis_3adc/3LFCC_3adc_platform/export/3LFCC_3adc_platform/3LFCC_3adc_platform.xpfm
+TRACE::2024-09-11.16:14:18::SCWBifWriter::hardware databse : Design_Closed_Loop_wrapper_0
+TRACE::2024-09-11.16:14:18::SCWBifWriter::bitstream found in the design
+TRACE::2024-09-11.16:14:18::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-09-11.16:14:18::SCWBifWriter::proc type : 
+TRACE::2024-09-11.16:14:18::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-09-11.16:14:18::SCWBifWriter::Device type is : zynq
+TRACE::2024-09-11.16:14:18::SCWBifWriter::Writing BIF to file : D:/Programs/Proyecto_3LFCC_Zybo/Vitis_3adc/OLC_3adc_system/Debug/system.bif
+TRACE::2024-09-11.16:14:18::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-09-11.16:14:57::SCWBifWriter::Found the complete platform D:/Programs/Proyecto_3LFCC_Zybo/Vitis_3adc/3LFCC_3adc_platform/export/3LFCC_3adc_platform/3LFCC_3adc_platform.xpfm
+TRACE::2024-09-11.16:14:57::SCWBifWriter::hardware databse : Design_Closed_Loop_wrapper_1
+TRACE::2024-09-11.16:14:57::SCWBifWriter::bitstream found in the design
+TRACE::2024-09-11.16:14:57::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-09-11.16:14:57::SCWBifWriter::proc type : 
+TRACE::2024-09-11.16:14:57::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-09-11.16:14:57::SCWBifWriter::Device type is : zynq
+TRACE::2024-09-11.16:14:57::SCWBifWriter::Writing BIF to file : D:/Programs/Proyecto_3LFCC_Zybo/Vitis_3adc/OLC_3adc_system/Debug/system.bif
+TRACE::2024-09-11.16:14:57::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-09-26.15:56:30::SCWBifWriter::Found the complete platform D:/Programs/Proyecto_3LFCC_Zybo/Vitis_3adc/3LFCC_3adc_platform/export/3LFCC_3adc_platform/3LFCC_3adc_platform.xpfm
+TRACE::2024-09-26.15:56:30::SCWBifWriter::hardware databse : Design_Closed_Loop_wrapper_1
+TRACE::2024-09-26.15:56:30::SCWBifWriter::bitstream found in the design
+TRACE::2024-09-26.15:56:30::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-09-26.15:56:30::SCWBifWriter::proc type : 
+TRACE::2024-09-26.15:56:30::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-09-26.15:56:30::SCWBifWriter::Device type is : zynq
+TRACE::2024-09-26.15:56:30::SCWBifWriter::Writing BIF to file : D:/Programs/Proyecto_3LFCC_Zybo/Vitis_3adc/OLC_3adc_system/Debug/system.bif
+TRACE::2024-09-26.15:56:30::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-09-26.15:57:05::SCWBifWriter::Found the complete platform D:/Programs/Proyecto_3LFCC_Zybo/Vitis_3adc/3LFCC_3adc_platform/export/3LFCC_3adc_platform/3LFCC_3adc_platform.xpfm
+TRACE::2024-09-26.15:57:05::SCWBifWriter::hardware databse : Design_Closed_Loop_wrapper_2
+TRACE::2024-09-26.15:57:05::SCWBifWriter::bitstream found in the design
+TRACE::2024-09-26.15:57:05::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-09-26.15:57:05::SCWBifWriter::proc type : 
+TRACE::2024-09-26.15:57:05::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-09-26.15:57:05::SCWBifWriter::Device type is : zynq
+TRACE::2024-09-26.15:57:05::SCWBifWriter::Writing BIF to file : D:/Programs/Proyecto_3LFCC_Zybo/Vitis_3adc/OLC_3adc_system/Debug/system.bif
+TRACE::2024-09-26.15:57:05::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-09-26.15:59:47::SCWBifWriter::Found the complete platform D:/Programs/Proyecto_3LFCC_Zybo/Vitis_3adc/3LFCC_3adc_platform/export/3LFCC_3adc_platform/3LFCC_3adc_platform.xpfm
+TRACE::2024-09-26.15:59:47::SCWBifWriter::hardware databse : Design_Closed_Loop_wrapper_2
+TRACE::2024-09-26.15:59:47::SCWBifWriter::bitstream found in the design
+TRACE::2024-09-26.15:59:47::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-09-26.15:59:47::SCWBifWriter::proc type : 
+TRACE::2024-09-26.15:59:47::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-09-26.15:59:47::SCWBifWriter::Device type is : zynq
+TRACE::2024-09-26.15:59:47::SCWBifWriter::Writing BIF to file : D:/Programs/Proyecto_3LFCC_Zybo/Vitis_3adc/OLC_3adc_system/Debug/system.bif
+TRACE::2024-09-26.15:59:47::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-09-26.16:02:14::SCWBifWriter::Found the complete platform D:/Programs/Proyecto_3LFCC_Zybo/Vitis_3adc/3LFCC_3adc_platform/export/3LFCC_3adc_platform/3LFCC_3adc_platform.xpfm
+TRACE::2024-09-26.16:02:15::SCWBifWriter::hardware databse : Design_Closed_Loop_wrapper_3
+TRACE::2024-09-26.16:02:15::SCWBifWriter::bitstream found in the design
+TRACE::2024-09-26.16:02:15::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-09-26.16:02:15::SCWBifWriter::proc type : 
+TRACE::2024-09-26.16:02:15::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-09-26.16:02:15::SCWBifWriter::Device type is : zynq
+TRACE::2024-09-26.16:02:15::SCWBifWriter::Writing BIF to file : D:/Programs/Proyecto_3LFCC_Zybo/Vitis_3adc/OLC_3adc_system/Debug/system.bif
+TRACE::2024-09-26.16:02:15::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2024-09-26.16:39:38::SCWBifWriter::Found the complete platform D:/Programs/Proyecto_3LFCC_Zybo/Vitis_3adc/3LFCC_3adc_platform/export/3LFCC_3adc_platform/3LFCC_3adc_platform.xpfm
+TRACE::2024-09-26.16:39:38::SCWBifWriter::hardware databse : Design_Closed_Loop_wrapper_4
+TRACE::2024-09-26.16:39:38::SCWBifWriter::bitstream found in the design
+TRACE::2024-09-26.16:39:38::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2024-09-26.16:39:38::SCWBifWriter::proc type : 
+TRACE::2024-09-26.16:39:38::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2024-09-26.16:39:38::SCWBifWriter::Device type is : zynq
+TRACE::2024-09-26.16:39:38::SCWBifWriter::Writing BIF to file : D:/Programs/Proyecto_3LFCC_Zybo/Vitis_3adc/OLC_3adc_system/Debug/system.bif
+TRACE::2024-09-26.16:39:38::SCWBifWriter::Writing the Zynq Baremetal bif 

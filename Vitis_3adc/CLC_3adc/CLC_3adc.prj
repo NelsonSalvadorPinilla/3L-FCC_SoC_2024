@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="CLC_3adc" location="D:/Projects_Embedded/Closed_Loop/Vitis_3adc/CLC_3adc" platform="D:/Projects_Embedded/Closed_Loop/Vitis_3adc/3LFCC_3adc_platform/export/3LFCC_3adc_platform/3LFCC_3adc_platform.xpfm" platformUID="xilinx:zybo::0.0(custom)" systemProject="CLC_3adc_system" sysConfig="3LFCC_3adc_platform" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="2865371522be0e354412ea1faa420f3d">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.50721115">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.2080842529" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

@@ -4,22 +4,22 @@ module Shift_Register(
   input wire CLK_SR,
   input wire RST,
   input wire data_in,
-  output wire [16:0] data_out
+  output wire [17:0] data_out
 );
 
-  reg [16:0] internal_data [0:16];
+  reg [17:0] internal_data [0:17];
   reg [4:0] shift_state;
   integer i;
   
   always @(posedge CLK_SR or posedge RST) begin
     if (RST) begin
       // Reiniciar todas las variables internas a 0 cuando se activa el reset
-      for (i = 0; i < 5'd17; i = i + 1) begin
+      for (i = 0; i < 5'd18; i = i + 1) begin
         internal_data[i] <= 0;
       end
       shift_state <= 0;
     end else 
-        if (shift_state < 5'd17) begin
+        if (shift_state < 5'd18) begin
           // Almacenar el valor de entrada en la variable interna correspondiente
           internal_data[shift_state] <= data_in;
           // Cambiar al siguiente estado del registro
@@ -43,6 +43,7 @@ assign data_out[13] = internal_data[13]; // INPUT_SELECTOR
 assign data_out[14] = internal_data[14]; // CLK_SELECTOR
 assign data_out[15] = internal_data[15]; // PS_SELECTOR
 assign data_out[16] = internal_data[16]; // PS3_SELECTOR
+assign data_out[17] = internal_data[17]; // ENABLE_OUTPUT
  
 
 

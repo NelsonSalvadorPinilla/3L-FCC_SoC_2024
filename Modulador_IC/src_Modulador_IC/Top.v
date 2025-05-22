@@ -1,14 +1,12 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Design Name: Modulator
-// Module Name: Modulator
+// Design Name: Top 
+// Module Name: Top
 // Project Name: Modulacion PS-PWM para 3L-FCC
-// Date: 25/10/2023
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module Modulator(
-    input ENABLE_OUTPUT,
+module Top(
 
     input CLK_PLL,        // Reloj de entrada proveniente del PLL
     input CLK_EXT,        // Rloj de entrada que proviene de un PIN
@@ -53,6 +51,7 @@ wire [4:0] dt;
 wire [1:0] SELECTOR_SIGNAL_GENERATOR_1; // escoge el desfase que tendra la triangular 1
 wire [1:0] SELECTOR_SIGNAL_GENERATOR_2; // escoge el desfase que tendra la triangular 2
 wire [3:0]OUTPUT_SELECTOR_EXTERNAL;
+wire ENABLE_OUTPUT;
 wire PS_SELECTOR;
 wire PS3_SELECTOR;
 
@@ -60,7 +59,7 @@ Shift_Register Shift_Register_Inst(
     CLK_SR,
     RST,
     Data_SR,
-    {PS3_SELECTOR, PS_SELECTOR, CLK_SELECTOR, INPUT_SELECTOR, OUTPUT_SELECTOR_EXTERNAL[3], OUTPUT_SELECTOR_EXTERNAL[2], OUTPUT_SELECTOR_EXTERNAL[1], OUTPUT_SELECTOR_EXTERNAL[0],SELECTOR_SIGNAL_GENERATOR_2[1],SELECTOR_SIGNAL_GENERATOR_2[0],SELECTOR_SIGNAL_GENERATOR_1[1],SELECTOR_SIGNAL_GENERATOR_1[0], dt[4], dt[3], dt[2], dt[1], dt[0]}
+    {ENABLE_OUTPUT, PS3_SELECTOR, PS_SELECTOR, CLK_SELECTOR, INPUT_SELECTOR, OUTPUT_SELECTOR_EXTERNAL[3], OUTPUT_SELECTOR_EXTERNAL[2], OUTPUT_SELECTOR_EXTERNAL[1], OUTPUT_SELECTOR_EXTERNAL[0],SELECTOR_SIGNAL_GENERATOR_2[1],SELECTOR_SIGNAL_GENERATOR_2[0],SELECTOR_SIGNAL_GENERATOR_1[1],SELECTOR_SIGNAL_GENERATOR_1[0], dt[4], dt[3], dt[2], dt[1], dt[0]}
 );
 
 // El orden para meter los datos es (de primero a ultimo): 
@@ -81,6 +80,7 @@ Shift_Register Shift_Register_Inst(
 // CLK_SELECTOR
 // PS_SELECTOR
 // PS3_SELECTOR
+// ENABLE_OUTPUT
 
 /**************** ETAPA DE MUX INPUT ****************/
 
@@ -327,46 +327,44 @@ end
 
 /**************** ETAPA SELECTOR PS ****************/
 
-wire PMOS1_PS1_prev, NMOS2_PS1_prev, PMOS2_PS1_prev, NMOS1_PS1_prev;
-wire PMOS1_PS1_prev_prev, NMOS2_PS1_prev_prev, PMOS2_PS1_prev_prev, NMOS1_PS1_prev_prev;
-wire PMOS1_PS1_prev_neg, NMOS2_PS1_prev_neg, PMOS2_PS1_prev_neg, NMOS1_PS1_prev_neg;
-// si PS_SELECTOR es 0 -> PS1 , si es 1 -> PS2
+// Declaracion de registros
+reg PMOS1_PS1_prev_reg, NMOS2_PS1_prev_reg, PMOS2_PS1_prev_reg, NMOS1_PS1_prev_reg;
+reg PMOS1_PS2_prev_reg, NMOS2_PS2_prev_reg, PMOS2_PS2_prev_reg, NMOS1_PS2_prev_reg;
 
-assign PMOS1_PS1_prev_prev = PS_SELECTOR ? PMOS1_prev : 1; 
-assign NMOS2_PS1_prev_prev = PS_SELECTOR ? NMOS2_prev : 0;
-assign PMOS2_PS1_prev_prev = PS_SELECTOR ? PMOS2_prev : 1;
-assign NMOS1_PS1_prev_prev = PS_SELECTOR ? NMOS1_prev : 0;
+always @(posedge clk or posedge RST) begin
+    if (RST) begin
+        // Resetea los registros en caso de senal de reset
+        PMOS1_PS1_prev_reg <= 1'b1;
+        NMOS2_PS1_prev_reg <= 1'b0;
+        PMOS2_PS1_prev_reg <= 1'b1;
+        NMOS1_PS1_prev_reg <= 1'b0;
+        PMOS1_PS2_prev_reg <= 1'b1;
+        NMOS2_PS2_prev_reg <= 1'b0;
+        PMOS2_PS2_prev_reg <= 1'b1;
+        NMOS1_PS2_prev_reg <= 1'b0;
+    end else begin
+        // Almacenamiento de valores en los registros
+        PMOS1_PS1_prev_reg <= PS_SELECTOR ? PMOS1_prev : 1'b1;
+        NMOS2_PS1_prev_reg <= PS_SELECTOR ? NMOS2_prev : 1'b0;
+        PMOS2_PS1_prev_reg <= PS_SELECTOR ? PMOS2_prev : 1'b1;
+        NMOS1_PS1_prev_reg <= PS_SELECTOR ? NMOS1_prev : 1'b0;
 
-wire PMOS1_PS2_prev, NMOS2_PS2_prev, PMOS2_PS2_prev, NMOS1_PS2_prev;
-wire PMOS1_PS2_prev_prev, NMOS2_PS2_prev_prev, PMOS2_PS2_prev_prev, NMOS1_PS2_prev_prev;
-wire PMOS1_PS2_prev_neg, NMOS2_PS2_prev_neg, PMOS2_PS2_prev_neg, NMOS1_PS2_prev_neg;
+        PMOS1_PS2_prev_reg <= PS_SELECTOR ? 1'b1 : PMOS1_prev;
+        NMOS2_PS2_prev_reg <= PS_SELECTOR ? 1'b0 : NMOS2_prev;
+        PMOS2_PS2_prev_reg <= PS_SELECTOR ? 1'b1 : PMOS2_prev;
+        NMOS1_PS2_prev_reg <= PS_SELECTOR ? 1'b0 : NMOS1_prev;
+    end
+end
 
-assign PMOS1_PS2_prev_prev = PS_SELECTOR ? 1 : PMOS1_prev; 
-assign NMOS2_PS2_prev_prev = PS_SELECTOR ? 0 : NMOS2_prev;
-assign PMOS2_PS2_prev_prev = PS_SELECTOR ? 1 : PMOS2_prev;
-assign NMOS1_PS2_prev_prev = PS_SELECTOR ? 0 : NMOS1_prev;
-
-// buffers
-
-assign PMOS1_PS1_prev_neg = ~PMOS1_PS1_prev_prev; 
-assign NMOS2_PS1_prev_neg = ~NMOS2_PS1_prev_prev;
-assign PMOS2_PS1_prev_neg = ~PMOS2_PS1_prev_prev;
-assign NMOS1_PS1_prev_neg = ~NMOS1_PS1_prev_prev;
-
-assign PMOS1_PS1_prev = ~PMOS1_PS1_prev_neg; 
-assign NMOS2_PS1_prev = ~NMOS2_PS1_prev_neg;
-assign PMOS2_PS1_prev = ~PMOS2_PS1_prev_neg;
-assign NMOS1_PS1_prev = ~NMOS1_PS1_prev_neg;
-
-assign PMOS1_PS2_prev_neg = ~PMOS1_PS2_prev_prev;
-assign NMOS2_PS2_prev_neg = ~NMOS2_PS2_prev_prev;
-assign PMOS2_PS2_prev_neg = ~PMOS2_PS2_prev_prev;
-assign NMOS1_PS2_prev_neg = ~NMOS1_PS2_prev_prev;
-
-assign PMOS1_PS2_prev = ~PMOS1_PS2_prev_neg;
-assign NMOS2_PS2_prev = ~NMOS2_PS2_prev_neg;
-assign PMOS2_PS2_prev = ~PMOS2_PS2_prev_neg;
-assign NMOS1_PS2_prev = ~NMOS1_PS2_prev_neg;
+// Asignacion de las salidas desde los registros
+assign PMOS1_PS1_prev = PMOS1_PS1_prev_reg;
+assign NMOS2_PS1_prev = NMOS2_PS1_prev_reg;
+assign PMOS2_PS1_prev = PMOS2_PS1_prev_reg;
+assign NMOS1_PS1_prev = NMOS1_PS1_prev_reg;
+assign PMOS1_PS2_prev = PMOS1_PS2_prev_reg;
+assign NMOS2_PS2_prev = NMOS2_PS2_prev_reg;
+assign PMOS2_PS2_prev = PMOS2_PS2_prev_reg;
+assign NMOS1_PS2_prev = NMOS1_PS2_prev_reg;
 
 
 /**************** ETAPA ENABLE OUTPUTs ****************/
